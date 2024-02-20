@@ -5,13 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
  <style>
+  body{
+    font-family: sans-serif;
+     background-color: #262626;
+     color: aliceblue;
+    
+  }
         td{
             width: 100px;
             text-align: center  ;
             height: 50px;
+            color: aliceblue;
+            
         }
         table{
-            border-bottom: 1px solid black;
+            border-bottom: 1px solid rgb(121, 115, 115);
             width: 100%;
         }
         img{
@@ -23,11 +31,38 @@
         }
         h2{
             text-align: center;
+            font-size: 18px;
+            text-decoration: none;
+            color: aliceblue;
+        }
+        h3{
+          margin-top: -10px;
+           text-align: center;
+            font-size: 12px;
+            text-decoration: none;
+           
+        }
+        h3:hover{
+
+            color: rgb(126, 126, 154);
         }
         input{
             width: 400px;
             height: 30px;
         }
+        .contact{
+            width: 100px;
+            text-align: center;
+            width: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: aliceblue;
+            margin-top: 500;
+        }
+        /* fd */
+
+      
     </style>
   </head>
   <body>
@@ -58,32 +93,33 @@
                           <a href=""
                             ><br /><br /><br />
                             <img src="/assets/v1.jpg" alt="" />
-                            <h2>Avengers Secret Wars</h2>
-                            <h3>2hr 10min . <span>Action</span></h3>
+                            <h2>Free Game</h2>
+                            <h3><a href="freeGame.html" target="_blank">see more</a></h3>
+
                           </a>
                         </td>
                         <td>
                           <a href=""
                             ><br /><br /><br />
                             <img src="/assets/V2.jpg" alt="" />
-                            <h2>Avengers: Endgame</h2>
-                            <h3>2hr 10min . <span>Action</span></h3>
+                            <h2>Story Game</h2>
+                            <h3><a href="index02.html" target="_blank">see more</a></h3>
                           </a>
                         </td>
                         <td>
                           <a href=""
                             ><br /><br /><br />
                             <img src="/assets/V3.jpg" alt="" />
-                            <h2>K.G.F: Chapter 1</h2>
-                            <h3>2hr 10min . <span>Action</span></h3>
+                            <h2>Mini Game</h2>
+                            <h3><a href="index02.html" target="_blank">see more</a></h3>
                           </a>
                         </td>
                         <td>
                           <a href=""
                             ><br /><br /><br />
                             <img src="/assets/V4.jpg" alt="" />
-                            <h2>K.G.F: Chapter 2</h2>
-                            <h3>2hr 10min . <span>Action</span></h3>
+                            <h2>Battelroyal Game</h2>
+                            <h3><a href="index02.html" target="_blank">see more</a></h3>
                           </a>
                         </td>
                       </tr>
@@ -92,29 +128,29 @@
                         <td>
                           <a href="">
                             <img src="/assets/V5.jpg" alt="" />
-                            <h2>Maari</h2>
-                            <h3>2hr 10min . <span>Action</span></h3>
+                            <h2>Action Game</h2>
+                            <h3><a href="index02.html" target="_blank">see more</a></h3>
                           </a>
                         </td>
                         <td>
                           <a href="">
                             <img src="/assets/V6.jpg" alt="" />
-                            <h2>Master</h2>
-                            <h3>2hr 10min . <span>Action</span></h3>
+                            <h2>Survel Game</h2>
+                            <h3><a href="index02.html" target="_blank">see more</a></h3>
                           </a>
                         </td>
                         <td>
                           <a href="">
                             <img src="/assets/I1.png" alt="" />
-                            <h2>Varisu</h2>
-                            <h3>2hr 10min . <span>Action</span></h3>
+                            <h2>Car Game</h2>
+                            <h3><a href="index02.html" target="_blank">see more</a></h3>
                           </a>
                         </td>
                         <td>
                           <a href="">
                             <img src="/assets/M1.jpg" alt="" />
-                            <h2>Chennai Express</h2>
-                            <h3>2hr 10min . <span>Action</span></h3>
+                            <h2>Bubble Game</h2>
+                            <h3><a href="index02.html" target="_blank">see more</a></h3>
                           </a>
                         </td>
                       </tr>
@@ -138,18 +174,19 @@
   
       </tr>
         </section>
-        <section>
+        <section class="contact">
            <tr style="align-items: center;">
             <footer>
                 <br><br><br><h1>Contact</h1>
             <table>
                 <tbody>
                     <tr>
-                        <td colspan="3">contact us</td>
+                        <!-- <td colspan="3">contact us</td> -->
+                        <br><br>
                     </tr>
-                    <tr>
+                    <tr >
                         <td colspan="3" style="width: 100px; text-align: center;">
-                            <label for="name">First Name&nbsp;&nbsp; - &nbsp;&nbsp;</label>
+                            <label  for="name">First Name&nbsp;&nbsp; - &nbsp;&nbsp;</label>
                             <input type="text" name="name" id="name">
                         </td>
                     </tr>
@@ -161,13 +198,13 @@
                     </tr>
                     <tr>
                         <td colspan="3" style="width: 100px; text-align: center;">
-                            <label for="name">Email&nbsp;&nbsp; - &nbsp;&nbsp;</label>
+                            <label for="name">Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;</label>
                             <input type="text" name="name" id="name">
                         </td>
                     </tr>
                     <tr>
                         <td colspan="3" style="width: 100px; text-align: center;">
-                            <label for="name">Phone Number&nbsp;&nbsp; - &nbsp;&nbsp;</label>
+                            <label for="name">Mobile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;</label>
                             <input type="text" name="name" id="name">
                         </td>
                     </tr>
@@ -179,8 +216,9 @@
                     </tr>
                     <tr>
                         <td colspan="3" style="text-align: center;">
-                            <input style="width: 60px;" type="submit" value="Submit">
-                        </td>
+    <input style="width: 60px; background-color: blue; color: white;" type="submit" value="Submit">
+</td>
+
                     </tr>
                 </tbody>
             </table>
